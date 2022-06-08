@@ -1,0 +1,26 @@
+/*
+
+
+- Font size (name and stats): 18px */
+:root {
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --Dark-gray: hsl(0, 0%, 59%);
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: var(--Dark-cyan);
+}
+/*# sourceMappingURL=Style.css.map */
